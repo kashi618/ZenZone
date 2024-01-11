@@ -1,0 +1,17 @@
+[start microbit]
+
+print(hi, how are you?)
+
+print(Good  /  Bad)
+if button A:
+    cycle left
+if button B:
+    cycle right
+if button AB:
+    select option
+if touch logo:
+    show text again
+
+  
+
+
