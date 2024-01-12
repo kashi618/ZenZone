@@ -1,6 +1,6 @@
 import microbit as mb
 
-def welcomeMSG():
+def feelingGoodBad():
     mb.display.scroll("hi. how are you?",80)
     mb.display.scroll(choices[0])
     
@@ -15,13 +15,17 @@ def welcomeMSG():
         if mb.button_a.is_pressed():
             if currentChoice == 0 :
                 mb.display.scroll(choices[0],80)
+                currentChoice += 1
             else:
                 mb.display.scroll(choices[1],80)
+                currentChoice -= 1
         if mb.button_b.is_pressed():
             if currentChoice == 0 :
                 mb.display.scroll(choices[0],80)
+                currentChoice += 1
             else:
                 mb.display.scroll(choices[1],80)
+                currentChoice -= 1
         
-        if (mb.button_a.is_pressed()) and (mb.button_b.is_pressed()):
-            
+        if mb.button_a.is_pressed() and mb.button_b.is_pressed():
+            return currentChoice
