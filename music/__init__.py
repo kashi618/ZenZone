@@ -20,7 +20,7 @@ and # (sharp - a hash symbol). For example, Ab is A-flat and C# is C-sharp. """
 # Functions
 
 def set_tempo(ticks=4, bpm=120):
-    """ Sets the approximate tempo for playback.
+    """
     A number of ticks (expressed as an integer) constitute a beat. Each 
     beat is to be played at a certain frequency per minute (expressed as 
     the more familiar BPM - beats per minute - also as an integer).
