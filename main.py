@@ -8,4 +8,8 @@ from visuals import *
 # MICROBIT WEBSITE
 # https://makecode.microbit.org/v3.1
 
-welcomeMSG()
+# 0=Good  1=Bad
+userChoice = welcomeMSG()
+
+if userChoice == "good":
+    

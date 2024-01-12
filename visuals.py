@@ -1,5 +1,5 @@
 import microbit as mb
 
-def startupSpiral():
+def cup():
     for i in range(0,5):
         mb.display.set_pixel(0,0,9)
