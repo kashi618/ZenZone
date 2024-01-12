@@ -3,14 +3,19 @@
 print(hi, how are you?)
 
 print(Good  /  Bad)
+
+if touch logo:
+    show text again ("hi, how are you?")
+
 if button A:
     cycle left
 if button B:
     cycle right
+
 if button AB:
     select option
-if touch logo:
-    show text again
+
+
 
   
 
