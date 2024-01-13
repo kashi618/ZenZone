@@ -1,12 +1,33 @@
-import microbit as mb
+from microbit import display
+from microbit import *
 
-def cup():
-    for i in range (0,5):
-        mb.display.set_pixel(0,i,9)
-        mb.display.set_pixel(4,i,9)
-    for i in range(1,4):
-        mb.display.set_pixel(i,1,3)
-        mb.display.set_pixel(i,2,3)
-        mb.display.set_pixel(i,3,3)
-        mb.display.set_pixel(i,4,9)
+def cup(): # Water Cup
+    display.show(Image( "90009:"
+                        "95559:"
+                        "95659:"
+                        "96669:" 
+                        "99999"))
+
+def gnbSymbol(x): # Symbols for Good, Neutral, Bad
+    if x == 0: # Good
+        display.show(Image( "99999:"
+                            "90000:"
+                            "90999:"
+                            "90009:" 
+                            "99999"))
+    
+    if x == 1: # Neutral
+        display.show(Image( "90009:"
+                            "99009:"
+                            "90909:"
+                            "90099:" 
+                            "90009"))
+    
+    if x == 2: # bad
+        display.show(Image( "99990:"
+                            "99009:"
+                            "99990:"
+                            "90009:" 
+                            "99990"))
+        
 
