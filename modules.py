@@ -11,39 +11,56 @@ def startup():
     music.pitch(622, 250)
     music.pitch(466, 250)
 
-# Returns if user is feeling "Good" or "Bad"
-def feelingGNB():
-    # List for choices
-    choices = ["Good","Neutral","Bad"] # 0=Good 1=Neutral 2=Bad
+def scrollAndReturnUsingAB(choices,question): # Input list of choices, scroll using buttons A and B, return value of choice
+    maxNumChoices = len(choices) - 1 # Number of options in list starting at 0
     currentChoice = 0
     
-    display.scroll("hi. how are you?",80)
-    
     while True:
-        # When the logo is pressed, shows the message again
+        # When the logo is pressed, shows the question again
         if pin_logo.is_touched():
-            display.scroll("hi. how are you?",80)
+            display.scroll(question,80)
         
-        # Cycle through options (Good,Neutral,Bad) using buttons A and B
-        if button_a.is_pressed(): # Button A
-            if currentChoice == 0:
-                currentChoice = 2
-                display.scroll(choices[currentChoice],80)
+        if button_a.is_pressed(): # Go to next option when button A is pressed
+            if currentChoice == maxNumChoices:
+                currentChoice = 0
+                display.scroll(choices[0],80)
                 symbolGNB(currentChoice)
             else:
-                currentChoice -= 1
-                display.scroll(choices[currentChoice],80)
-                symbolGNB(currentChoice) 
-        if button_b.is_pressed(): # Button B
-            if currentChoice == 2:
-                currentChoice = 0
-                display.scroll(choices[currentChoice],80)
-                symbolGNB(currentChoice)
-            else: 
                 currentChoice += 1
                 display.scroll(choices[currentChoice],80)
                 symbolGNB(currentChoice)
         
-        # Returns the choice of the user as a string. "good","bad"
-        if button_a.is_pressed() and button_b.is_pressed():
-            return str(choices[currentChoice])
+        if button_b.is_pressed():
+            return choices[currentChoice]
+    
+    # [UNUSED]  scroll using button B
+    # elif button_b.is_pressed(): # Button B
+    #   if currentChoice == numChoices:
+    #        currentChoice = 0
+    #        display.scroll(choices[currentChoice],80)
+    #        symbolGNB(currentChoice)
+    #    else: 
+    #        currentChoice += 1
+    #        display.scroll(choices[currentChoice],80)
+    #        symbolGNB(currentChoice)
+
+def feelingGNB(): # Returns if user is feeling "Good", "Bad", "Neutral"
+    choicesGNB = ["Good","Neutral","Bad"]
+    question = "hi. how are you?"
+    # Shows question
+    display.scroll(question,80)
+    
+    return scrollAndReturnUsingAB(choicesGNB,question)
+
+def feelingGood():
+    display.scroll("Thats good!!")
+    # add happy victory sfx
+
+def feelingNeutral():
+    display.scroll("")
+    # neutral sfx
+
+def feelingBad():
+    display.scroll("Thats not good :(")
+    # add sad sfx
+

@@ -8,7 +8,7 @@ def cup(): # Water Cup
                         "96669:" 
                         "99999"))
 
-def gnbSymbol(x): # Symbols for Good, Neutral, Bad
+def symbolGNB(x): # Symbols for Good, Neutral, Bad
     if x == 0: # Good
         display.show(Image( "99999:"
                             "90000:"
@@ -29,5 +29,3 @@ def gnbSymbol(x): # Symbols for Good, Neutral, Bad
                             "99990:"
                             "90009:" 
                             "99990"))
-        
-
