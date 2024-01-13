@@ -12,7 +12,7 @@ def startup():
     music.pitch(466, 250)
 
 # Returns if user is feeling "Good" or "Bad"
-def feelingGoodBad():
+def feelingGNB():
     # List for choices
     choices = ["Good","Neutral","Bad"] # 0=Good 1=Neutral 2=Bad
     currentChoice = 0
@@ -25,24 +25,24 @@ def feelingGoodBad():
             display.scroll("hi. how are you?",80)
         
         # Cycle through options (Good,Neutral,Bad) using buttons A and B
-        if button_a.is_pressed():
+        if button_a.is_pressed(): # Button A
             if currentChoice == 0:
                 currentChoice = 2
                 display.scroll(choices[currentChoice],80)
-                gnbSymbol(currentChoice)
+                symbolGNB(currentChoice)
             else:
                 currentChoice -= 1
                 display.scroll(choices[currentChoice],80)
-                gnbSymbol(currentChoice) 
-        if button_b.is_pressed():
+                symbolGNB(currentChoice) 
+        if button_b.is_pressed(): # Button B
             if currentChoice == 2:
                 currentChoice = 0
                 display.scroll(choices[currentChoice],80)
-                gnbSymbol(currentChoice)
+                symbolGNB(currentChoice)
             else: 
                 currentChoice += 1
                 display.scroll(choices[currentChoice],80)
-                gnbSymbol(currentChoice)
+                symbolGNB(currentChoice)
         
         # Returns the choice of the user as a string. "good","bad"
         if button_a.is_pressed() and button_b.is_pressed():
