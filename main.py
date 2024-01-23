@@ -8,5 +8,6 @@ from visuals import *
 # https://makecode.microbit.org/
 
 # Startup Picture
+music.pitch(440,duration=1)
 startup()
 feelingGNB()
