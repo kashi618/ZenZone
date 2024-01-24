@@ -113,6 +113,6 @@ def receive_full():
     details = radio.receive_full()
     if details:
         msg, rssi, timestamp = details
-
+    
     This function is useful for providing information needed for triangulation and/or 
     triliteration with other micro:bit devices. """
