@@ -15,5 +15,4 @@ while True:
     userEmotion = feelingGNB()
     rank = emotion1_10()
     
-    exportAsCSV
     sleep(3600000) # Wait for 1 hour

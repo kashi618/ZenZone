@@ -1,8 +1,9 @@
 from microbit import display
 from microbit import *
-import log
 import music
+
 from visuals import*
+
 
 
 def startup():
@@ -22,11 +23,12 @@ def scrollAndReturnUsingAB(choices,question): # Input list of choices, scroll us
         if pin_logo.is_touched(): # Show question again on logo touch
             music.pitch(500,duration=1) # Beep for feedback
             display.scroll(question,80)
-        
-        if button_a.is_pressed() and button_b.is_pressed(): # Return value on AB
-            return choices[currentChoice]
 
-        elif button_a.is_pressed(): # Go to previous option if button A pressed
+        if accelerometer.was_gesture('2g'): # Shake microbit to select current option
+            sleep(1000)
+            return(choices[currentChoice])
+
+        if button_a.is_pressed(): # Go to previous option if button A pressed
             music.pitch(440,duration=1) # Beep for feedback
             if currentChoice == maxNumChoices:
                 currentChoice = 0
@@ -37,7 +39,7 @@ def scrollAndReturnUsingAB(choices,question): # Input list of choices, scroll us
                 display.scroll(choices[currentChoice],80)
                 symbolGNB(currentChoice)
 
-        elif button_b.is_pressed(): # Go to next option if button B pressed
+        if button_b.is_pressed(): # Go to next option if button B pressed
             music.pitch(440,duration=1) # Beep for feedback
             if currentChoice == 0:
                 currentChoice = maxNumChoices
@@ -69,6 +71,3 @@ def emotion1_10():
     
     userChoice = scrollAndReturnUsingAB(num1_10,question)
     return userChoice
-
-exportAsCSV():
-     log.set_labels(*labels, timestamp=log.SECONDS)
