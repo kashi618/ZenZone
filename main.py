@@ -7,12 +7,12 @@ from visuals import *
 # MICROBIT WEBSITE
 # https://makecode.microbit.org/
 
-# Startup Picture
+# Startup Picture 
 startup()
 
 while True:
-    # (Good,Neutral,Bad)
     userEmotion = feelingGNB()
+    
     rank = emotion1_10()
     
     sleep(3600000) # Wait for 1 hour
