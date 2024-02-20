@@ -2,7 +2,7 @@
 	"nodes":[
 		{"id":"4dcc9d5e2d14d645","type":"text","text":"\"Hi, how are you?\"","x":-120,"y":-100,"width":250,"height":60},
 		{"id":"93d4e251765cb242","type":"text","text":"Start Microbit","x":-105,"y":-200,"width":220,"height":60},
-		{"id":"0b4eccfffe75aa7e","type":"file","file":"Pasted image 20240126125144.png","x":-195,"y":160,"width":400,"height":283},
+		{"id":"0b4eccfffe75aa7e","type":"file","file":"Pasted image 20240126125144.png","x":-195,"y":160,"width":399,"height":283},
 		{"id":"cbecea6b6753f5ab","type":"text","text":"Use buttons A and B to cycle through options","x":-213,"y":20,"width":437,"height":60},
 		{"id":"c2a76a54ec2b1597","type":"text","text":"Shake to select option","x":-138,"y":520,"width":285,"height":50},
 		{"id":"6ebbfff5154a6e91","type":"text","text":"If option is \"good\"","x":-418,"y":680,"width":250,"height":60},
