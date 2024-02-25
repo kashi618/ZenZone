@@ -6,21 +6,25 @@
 
 ### Brief
 For my Leaving Cert 2024 computer science project, I was assigned to create a "practical technological solution to problems relating to wellbeing". 
+It is estimated that 1 in 5 men and woman struggle with depression alone. 
+
+, so i wanted
+I to create a microbit project, which would be able to track down how the end user felt 
 
 ### Brainstorm
-I first started brainstorming on ideas which could relate to wellbeing. I came up with 3 main ideas 
+I first researched on existing solutions to health and wellbeing which met the requirements of the breif. 
 
 ### Basic Requirements
 **Create a fully automated embedded system that utilises digital/analogue inputs and digital/analogue outputs to support the theme of wellbeing.**
-For my fully automated embedded system, I will use the Microbit with the Micropython addon. Users will be able to use many of the different analogue inputs present on the Microbit. (A+B buttons, Logo press, Shake, etc).
+For my fully automated embedded system, I will use the Microbit with the Micropython software. I used Micropython with the Microbit as it was heavily documented, and contained more features. Users will be able to use many of the different analogue inputs present on the Microbit. (A+B buttons, Logo press, Shake, etc).
 
 
 **Validate and store the data gathered from the embedded system.**
-A dataset on how the end user is feeling (happy, neutral, sad), and how strongly they feel (1-5) will be gathered on the Microbit. This will be done by asking the user two questions, how they feel and how strongly they feel that way. This will be done on a periodic basis, around every 1-3 hours, and will be stored in a csv file.
+A dataset on how the end user is feeling (happy, neutral, sad), and how strongly they feel (1-5) will be gathered on the Microbit. This will be done by asking the user two questions; how they feel, and how strongly they feel that way. This will be done on a periodic basis, around every 1-3 hours. The data will then be stored in a csv file in the microbit for user later.
 
 
 **Create an analysis component that can be used to calculate or predict certain information and inform future decisions relating to wellbeing.**
-From the data gathered from the user, 
+From the csv file generated in the microbit,
 
 
 ### Advanced Requirements
