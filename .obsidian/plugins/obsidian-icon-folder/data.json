@@ -1,0 +1,35 @@
+{
+  "settings": {
+    "migrated": 4,
+    "iconPacksPath": ".obsidian/icons",
+    "fontSize": 16,
+    "emojiStyle": "none",
+    "iconColor": null,
+    "recentlyUsedIcons": [
+      "LiArrowRightFromLine",
+      "LiTrainFront"
+    ],
+    "recentlyUsedIconsSize": 5,
+    "rules": [],
+    "extraMargin": {
+      "top": 0,
+      "right": 4,
+      "bottom": 0,
+      "left": 0
+    },
+    "iconInTabsEnabled": false,
+    "iconInTitleEnabled": false,
+    "iconInFrontmatterEnabled": false,
+    "iconsBackgroundCheckEnabled": false,
+    "iconsInNotesEnabled": true,
+    "iconIdentifier": ":"
+  },
+  "PARA/1) Project, Short-term Goals": "LiArrowRightFromLine",
+  "PARA/3) Resource, Interests": "LiArrowRightFromLine",
+  "PARA/4) Archive, Completed": "LiArrowRightFromLine",
+  "PARA/Templates/1) Project": "LiArrowRightFromLine",
+  "PARA/Templates/2) Area": "LiArrowRightFromLine",
+  "PARA/Templates/3) Resource": "LiArrowRightFromLine",
+  "PARA/Templates/4) Archive": "LiArrowRightFromLine",
+  "PARA/2) Area, Notes, Other": "LiArrowRightFromLine"
+}
