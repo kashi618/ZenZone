@@ -4,15 +4,16 @@
 ### Video of Project
 [Video Of Brief]
 
+
 ### Brief
-For my Leaving Cert 2024 computer science project, I was assigned to create a "practical technological solution to problems relating to wellbeing". 
-It is estimated that 1 in 5 men and woman struggle with depression alone. 
+It is estimated that 1 in 5 men and women struggle with depression and mental issues alone. For my Leaving Cert 2024 computer science project, 
+I was assigned to create a "practical technological solution to problems relating to wellbeing". 
 
-, so i wanted
-I to create a microbit project, which would be able to track down how the end user felt 
 
-### Brainstorm
-I first researched on existing solutions to health and wellbeing which met the requirements of the breif. 
+
+This microbit project allows an end-uster to input feelings and emotions felt periodically through out the day. From the data gathered, it can then be graphed to see the 
+
+
 
 ### Basic Requirements
 **Create a fully automated embedded system that utilises digital/analogue inputs and digital/analogue outputs to support the theme of wellbeing.**
@@ -24,7 +25,9 @@ A dataset on how the end user is feeling (happy, neutral, sad), and how strongly
 
 
 **Create an analysis component that can be used to calculate or predict certain information and inform future decisions relating to wellbeing.**
-From the csv file generated in the microbit,
+From the csv file generated in the microbit, a graph can be created for each of the emotions felt by the user. This can then be plotted to see the intensity of each of the ewmotins felt by 
+
+
 
 
 ### Advanced Requirements
@@ -42,7 +45,10 @@ From the csv file generated in the microbit,
 
 ## Investigation
 ### Research
-I started by researching on current
+I started by researching on current existing designs, to see what ideas were already available, and to gain inspiration for my own.
+
+### Brainstorm
+I first started research on current and existing solutions to health and wellbeing, which met the requirements of the breif. I found a variety of ways in which people
 
 ### Feedback from Porential End-Users
 

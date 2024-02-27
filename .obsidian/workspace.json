@@ -8,15 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "18f0fb3c9f179dc8",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "8574f1fe19220a4d",
+            "id": "a7485852be2ebeac",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -27,9 +19,47 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "8574f1fe19220a4d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Project WriteUp Tasks.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5d941ab8b23e5891",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Project WriteUp Logs.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f9b0f9fead871771",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Project WriteUp Checklist.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -77,7 +107,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "5f252b2efa3321c0",
@@ -237,12 +268,12 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "8574f1fe19220a4d",
+  "active": "a7485852be2ebeac",
   "lastOpenFiles": [
-    "Project WriteUp Logs.md",
     "Project WriteUp Checklist.md",
-    "Project WriteUp.md",
     "Project WriteUp Tasks.md",
+    "Project WriteUp Logs.md",
+    "Project WriteUp.md",
     "ZenZone/visuals.py",
     "ZenZone/speech/__init__.py",
     "ZenZone/speech",
