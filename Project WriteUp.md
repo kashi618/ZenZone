@@ -46,6 +46,12 @@ From the csv file generated in the microbit, a graph can be created for each of 
 ## Investigation
 ### Research
 I started by researching on current existing designs, to see what ideas were already available, and to gain inspiration for my own.
+#### Free Solutions
+- Stress and Anxiety Companion
+	https://apps.apple.com/us/app/stress-anxiety-companion/id786238252
+- Happify: for Stress & Worry
+	https://apps.apple.com/us/app/happify-for-stress-worry/id730601963
+#### Paid Solutions
 
 ### Brainstorm
 I first started research on current and existing solutions to health and wellbeing, which met the requirements of the breif. I found a variety of ways in which people
