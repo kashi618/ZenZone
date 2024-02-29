@@ -8,55 +8,11 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a7485852be2ebeac",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Project WriteUp.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8574f1fe19220a4d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Project WriteUp Tasks.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5d941ab8b23e5891",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Project WriteUp Logs.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "f9b0f9fead871771",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Project WriteUp Checklist.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -143,9 +99,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Project WriteUp.md"
-              }
+              "state": {}
             }
           },
           {
@@ -202,9 +156,7 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {
-                "file": "Project WriteUp.md"
-              }
+              "state": {}
             }
           },
           {
@@ -225,7 +177,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Project WriteUp.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -242,7 +193,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Project WriteUp.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -268,22 +218,27 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "a7485852be2ebeac",
+  "active": "f9b0f9fead871771",
   "lastOpenFiles": [
+    "website & writeup/index.html",
+    "website & writeup/html",
     "Project WriteUp Checklist.md",
-    "Project WriteUp Tasks.md",
-    "Project WriteUp Logs.md",
     "Project WriteUp.md",
+    "Project WriteUp Tasks.md",
+    "website & writeup/Project WriteUp Checklist.md",
+    "website & writeup/Project WriteUp.md",
+    "website & writeup/Project WriteUp Tasks.md",
+    "website & writeup/Project WriteUp Logs.md",
+    "website & writeup",
+    "website",
+    "New folder",
+    "Project WriteUp Logs.md",
     "ZenZone/visuals.py",
     "ZenZone/speech/__init__.py",
     "ZenZone/speech",
     "ZenZone/sandbox.py",
     "ZenZone/radio/__init__.py",
     "ZenZone/radio",
-    "ZenZone/pseudocode.txt",
-    "ZenZone/neopixel/__init__.py",
-    "ZenZone/neopixel",
-    "ZenZone/music/__init__.py",
     "ZenZone/Untitled.canvas",
     "ZenZone/README.md",
     "ZenZone/Project WriteUp.md",
@@ -304,17 +259,12 @@
     "PARA/2) Area, Notes, Other/Headphones & IEMs.md",
     "2024-02-20.md",
     "PARA/2) Area, Notes, Other/Book List.md",
-    "PARA/2) Area, Notes, Other/GameDev ToDo List.md",
-    "PARA/2) Area, Notes, Other/Games/MHW Large Monsters.md",
     "Media, Pictures, Gifs/AKG K371-BT.png",
     "Media, Pictures, Gifs/Nikolai Vavilov.png",
     "Media, Pictures, Gifs/Salnotes Dioko.png",
     "Media, Pictures, Gifs/MHW Shock Trap.bmp",
     "Media, Pictures, Gifs/MHW Long Sword.bmp",
-    "PARA/2) Area, Notes, Other/Foods + Drinks/Cheeses.md",
-    "2014 Isla Vista Massacre.md",
     "Untitled.canvas",
-    "Excalidraw/Drawing 2024-02-07 16.06.10.excalidraw.md",
     "Excalidraw/Scripts/Downloaded/Set Grid.svg",
     "Excalidraw/Scripts/Downloaded/Organic Line.svg",
     "Media, Pictures, Gifs/Socrates.png",
