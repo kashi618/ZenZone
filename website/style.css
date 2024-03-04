@@ -6,3 +6,27 @@ html {
 div.title {
     text-align: center;
 }
+
+body {margin: 0;}
+
+div.topNav {
+    position: fixed;
+    color: #ffffff;
+    background-color: #282A35;
+    font-family: 'Source Sans Pro Topnav', sans-serif;
+    text-decoration: none;
+}
+
+a {
+    color: inherit;
+    line-height: 3;
+    margin: 0
+    padding-top: 5px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    padding-left: 15px; 
+}
+a:hover {
+    color: #ff0069;
+    cursor:pointer;
+}

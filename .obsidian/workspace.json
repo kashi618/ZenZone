@@ -11,8 +11,13 @@
             "id": "f9b0f9fead871771",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "writeup/Project WriteUp.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           }
         ]
@@ -63,8 +68,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "5f252b2efa3321c0",
@@ -99,7 +103,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "writeup/Project WriteUp.md"
+              }
             }
           },
           {
@@ -156,7 +162,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {}
+              "state": {
+                "file": "writeup/Project WriteUp.md"
+              }
             }
           },
           {
@@ -177,6 +185,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "writeup/Project WriteUp.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -193,6 +202,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "writeup/Project WriteUp.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -220,6 +230,10 @@
   },
   "active": "f9b0f9fead871771",
   "lastOpenFiles": [
+    "Untitled.canvas",
+    "writeup/Project WriteUp Logs.md",
+    "writeup/Project WriteUp Checklist.md",
+    "writeup/Project WriteUp.md",
     "website & writeup/index.html",
     "website & writeup/html",
     "Project WriteUp Checklist.md",
@@ -238,7 +252,6 @@
     "ZenZone/speech",
     "ZenZone/sandbox.py",
     "ZenZone/radio/__init__.py",
-    "ZenZone/radio",
     "ZenZone/Untitled.canvas",
     "ZenZone/README.md",
     "ZenZone/Project WriteUp.md",
@@ -256,15 +269,11 @@
     "PARA/2) Area, Notes, Other/Foods + Drinks/Chinese.md",
     "Alcohol.md",
     "PARA/2) Area, Notes, Other/Japanese/Leaving Cert Orals.md",
-    "PARA/2) Area, Notes, Other/Headphones & IEMs.md",
-    "2024-02-20.md",
-    "PARA/2) Area, Notes, Other/Book List.md",
     "Media, Pictures, Gifs/AKG K371-BT.png",
     "Media, Pictures, Gifs/Nikolai Vavilov.png",
     "Media, Pictures, Gifs/Salnotes Dioko.png",
     "Media, Pictures, Gifs/MHW Shock Trap.bmp",
     "Media, Pictures, Gifs/MHW Long Sword.bmp",
-    "Untitled.canvas",
     "Excalidraw/Scripts/Downloaded/Set Grid.svg",
     "Excalidraw/Scripts/Downloaded/Organic Line.svg",
     "Media, Pictures, Gifs/Socrates.png",

@@ -1,5 +1,22 @@
 {
-  "recentFiles": [],
+  "recentFiles": [
+    {
+      "basename": "Project WriteUp",
+      "path": "writeup/Project WriteUp.md"
+    },
+    {
+      "basename": "Untitled",
+      "path": "Untitled.canvas"
+    },
+    {
+      "basename": "Project WriteUp Logs",
+      "path": "writeup/Project WriteUp Logs.md"
+    },
+    {
+      "basename": "Project WriteUp Checklist",
+      "path": "writeup/Project WriteUp Checklist.md"
+    }
+  ],
   "omittedPaths": [],
   "maxLength": null,
   "openType": "tab"

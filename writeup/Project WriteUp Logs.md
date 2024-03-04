@@ -30,11 +30,11 @@
 ## Week 8 **(Evaluate)** 19th Feb - 23rd Feb
 
 
-## Week 9 **(Writeup/Website)** 26th Feb - 1st Mar
-
+## Week 9 **(Writeup)** 26th Feb - 1st Mar
+- Layout of writeup was created.
 
 
 ## Week 10 **(Writeup/Website)** 4th Mar - 8th Mar
-
+- Started planning out how the website would look and fuction
 
 ## Week 11 **(Writeup/Website)** 11th Mar - 15th Mar
