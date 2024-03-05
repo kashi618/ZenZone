@@ -6,8 +6,7 @@
 
 
 ### Brief
-It is estimated that 1 in 5 men and women struggle with depression and mental issues alone. For my Leaving Cert 2024 computer science project, 
-I was assigned to create a "practical technological solution to problems relating to wellbeing". 
+It is estimated that 1 in 5 men and women struggle with depression and mental issues alone. For my Leaving Cert 2024 computer science project, I was assigned to create a "practical technological solution to problems relating to wellbeing". I wanted a way for people to log their feelings, and be able to look back on how they felt. By doing this, the user can get a deeper understanding of themselves.
 
 
 
@@ -25,7 +24,7 @@ A dataset on how the end user is feeling (happy, neutral, sad), and how strongly
 
 
 **Create an analysis component that can be used to calculate or predict certain information and inform future decisions relating to wellbeing.**
-From the csv file generated in the microbit, a graph can be created for each of the emotions felt by the user. This can then be plotted to see the intensity of each of the ewmotins felt by 
+From the csv file generated in the microbit, a graph can be created for each of the emotions felt by the user. This can then be plotted to see the intensity of each of the emotins felt by the user.
 
 
 
@@ -36,8 +35,9 @@ From the csv file generated in the microbit, a graph can be created for each of 
 
 
 **Each "what if" questions must use a minimum of three validated parameters (using at least two different data types) and, based on the information provided, offer the user insights in relation to some aspect of their wellbeing.**
+does the mood you feel now affect the modo you feel later
 
-
+does intensity of an emotion affect mood felt later
 
 **Users can view data in a graphical format which displays information such as their progress using the system or the results of a "what if" scenario**
 
@@ -51,17 +51,30 @@ I started by researching on current existing designs, to see what ideas were alr
 	https://apps.apple.com/us/app/stress-anxiety-companion/id786238252
 - Happify: for Stress & Worry
 	https://apps.apple.com/us/app/happify-for-stress-worry/id730601963
-#### Paid Solutions
 
 ### Brainstorm
-I first started research on current and existing solutions to health and wellbeing, which met the requirements of the breif. I found a variety of ways in which people
+After seeing the solutions created by other people, I found that they don't allow the user to input *how sad* they feel, or *how happy* they feel. People often feel a range of emotions, and the intensity felt for each emotions often varies aswell.
+Therefore, I wanted to build on this concept of allowing users to log their emotions, but also how intense they feel it.
 
-### Feedback from Porential End-Users
+### Feedback from Potential End-Users
+I wanted 
+
+
 
 ## Plan and Design
-[Flow chart]
+
 ### Flowchart of Basic Design
-### How 
+[Flow chart]
+
+### How it Meets Requirements
+
+
+### Technologies Used (Hardware/Software)
+- Visual Studio Code
+- Micropython for Microbit
+- Excel
+- Microbit
+- Replit
 
 ## Create
 ### Weekly Logs

@@ -12,7 +12,7 @@ startup()
 
 while True:
     userEmotion = feelingGNB()
-    
     rank = emotion1_10()
+    exportData()
     
     sleep(3600000) # Wait for 1 hour

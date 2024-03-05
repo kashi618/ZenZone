@@ -1,10 +1,6 @@
 from microbit import display
 from microbit import *
-import music
-
 from visuals import*
-
-
 
 def startup():
     cup()
@@ -20,18 +16,19 @@ def scrollAndReturnUsingAB(choices,question): # Input list of choices, scroll us
     listChoice = 0
     currentChoice = ""
     
-    
     while True:
-        if pin_logo.is_touched(): # Show question again on logo touch
-            music.pitch(500,duration=1) # Beep for feedback
-            display.scroll(question,80)
-
-        if accelerometer.was_gesture('2g'): # Shake microbit to select current option
+        if pin_logo.is_touched(): # Press logo to select option
+            music.pitch(500,duration=1,wait=False)
+            music.pitch(500,duration=1)
             sleep(1000)
             return(choices[listChoice])
 
+        if accelerometer.was_gesture('4g'): # Shake to show question again 
+            music.pitch(500,duration=1) # Feedback beep
+            display.scroll(question,80)
+
         if button_a.is_pressed(): # Go to previous option if button A pressed
-            music.pitch(440,duration=1) # Beep for feedback
+            music.pitch(350,duration=1) # Feedback beep
             if listChoice == maxNumChoices:
                 listChoice = 0
                 currentChoice = choices[listChoice]
@@ -44,7 +41,7 @@ def scrollAndReturnUsingAB(choices,question): # Input list of choices, scroll us
                 symbols(currentChoice)
 
         if button_b.is_pressed(): # Go to next option if button B pressed
-            music.pitch(440,duration=1) # Beep for feedback
+            music.pitch(650,duration=1) # Feedback beep
             if listChoice == 0:
                 listChoice = maxNumChoices
                 display.scroll(choices[maxNumChoices],80)
@@ -62,8 +59,8 @@ def feelingGNB(): # Returns if user is feeling "Good", "Bad", "Neutral"
     question = "hi. how are you?"
     
     # Shows question
-    music.pitch(440,duration=1) # Beep for feedback
-    display.scroll(question,80)
+    music.pitch(440,duration=1) # 
+    display.scroll(question,80) # Scroll question
     
     userChoice = scrollAndReturnUsingAB(choicesGNB,question)
     return userChoice
@@ -72,8 +69,13 @@ def emotion1_10():
     num1_10 = ["1","2","3","4","5"]
     question = "How do you feel?"
     
-    music.pitch(440,duration=1) # Beep for feedbackw
-    display.scroll(question,80) 
+    music.pitch(440,duration=1) # Feedback beep
+    display.scroll(question,80) # Scroll question
     
     userChoice = scrollAndReturnUsingAB(num1_10,question)
     return userChoice
+
+def exportData(userEmotion,emotionStrength):
+    log.set_labels("emotion", "emotionStrength")
+    log.add({"emotion":userEmotion})
+    log.add({"emotionStrength":emotionStrength})

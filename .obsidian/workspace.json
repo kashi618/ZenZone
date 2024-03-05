@@ -19,8 +19,48 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "a619b4a3f0ef4750",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "writeup/Project WriteUp Tasks.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "87a496b44d8f0ce7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "writeup/Project WriteUp Checklist.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "23d46cdd7d3ea7f4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "writeup/Project WriteUp Logs.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -104,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "writeup/Project WriteUp.md"
+                "file": "writeup/Project WriteUp Tasks.md"
               }
             }
           },
@@ -163,7 +203,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "writeup/Project WriteUp.md"
+                "file": "writeup/Project WriteUp Tasks.md"
               }
             }
           },
@@ -185,7 +225,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "writeup/Project WriteUp.md",
+                "file": "writeup/Project WriteUp Tasks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -202,7 +242,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "writeup/Project WriteUp.md",
+                "file": "writeup/Project WriteUp Tasks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -228,12 +268,17 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "f9b0f9fead871771",
+  "active": "a619b4a3f0ef4750",
   "lastOpenFiles": [
-    "Untitled.canvas",
+    "writeup/Project WriteUp.md",
+    "website/investigationPlanning.html",
+    "website/InavestigationPlanning.html",
     "writeup/Project WriteUp Logs.md",
     "writeup/Project WriteUp Checklist.md",
-    "writeup/Project WriteUp.md",
+    "writeup/Project WriteUp Tasks.md",
+    "writeup/README.md",
+    "writeup/Untitled.canvas",
+    "Untitled.canvas",
     "website & writeup/index.html",
     "website & writeup/html",
     "Project WriteUp Checklist.md",
@@ -250,8 +295,6 @@
     "ZenZone/visuals.py",
     "ZenZone/speech/__init__.py",
     "ZenZone/speech",
-    "ZenZone/sandbox.py",
-    "ZenZone/radio/__init__.py",
     "ZenZone/Untitled.canvas",
     "ZenZone/README.md",
     "ZenZone/Project WriteUp.md",
@@ -267,8 +310,6 @@
     "ASDASDASD/Project WriteUp Checklist.md",
     "PARA/2) Area, Notes, Other/Foods + Drinks/Recipes/Pancakes & Crepes.md",
     "PARA/2) Area, Notes, Other/Foods + Drinks/Chinese.md",
-    "Alcohol.md",
-    "PARA/2) Area, Notes, Other/Japanese/Leaving Cert Orals.md",
     "Media, Pictures, Gifs/AKG K371-BT.png",
     "Media, Pictures, Gifs/Nikolai Vavilov.png",
     "Media, Pictures, Gifs/Salnotes Dioko.png",
