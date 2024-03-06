@@ -108,8 +108,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "5f252b2efa3321c0",
@@ -128,8 +127,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "a004b30a86264a3d",
@@ -273,21 +271,24 @@
   },
   "active": "9730229b0b321abe",
   "lastOpenFiles": [
-    "website/OpenSauceOne.ttf",
-    "website/create.html",
-    "website/investigation.html",
-    "website/planDesign.html",
-    "writeup/Project WriteUp Logs.md",
-    "writeup/Project WriteUp.md",
+    "website/BACKUP/planDesign.html",
+    "website/BACKUP/meetingTheBreif.html",
+    "website/BACKUP/investigation.html",
+    "website/BACKUP/evaluation.html",
+    "website/BACKUP/create.html",
+    "website/BACKUP",
+    "website/meetingTheBreif.html",
+    "evaluation.html",
+    "planDesign.html",
+    "meetingTheBreif.html",
+    "investigation.html",
     "writeup/Project WriteUp Checklist.md",
+    "writeup/Project WriteUp.md",
     "writeup/Project WriteUp Tasks.md",
-    "website/investigationPlanning.html",
-    "website/InavestigationPlanning.html",
+    "writeup/Project WriteUp Logs.md",
     "writeup/README.md",
     "writeup/Untitled.canvas",
     "Untitled.canvas",
-    "website & writeup/index.html",
-    "website & writeup/html",
     "Project WriteUp Checklist.md",
     "Project WriteUp.md",
     "Project WriteUp Tasks.md",
@@ -295,9 +296,6 @@
     "website & writeup/Project WriteUp.md",
     "website & writeup/Project WriteUp Tasks.md",
     "website & writeup/Project WriteUp Logs.md",
-    "website & writeup",
-    "website",
-    "New folder",
     "Project WriteUp Logs.md",
     "ZenZone/Untitled.canvas",
     "ZenZone/README.md",
