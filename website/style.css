@@ -1,32 +1,40 @@
-html {
+<style>
+body {
+    font-family: "Lato", sans-serif;
+}
+
+.sidenav {
     height: 100%;
-    width: 100%;
-}
-
-div.title {
-    text-align: center;
-}
-
-body {margin: 0;}
-
-div.topNav {
+    width: 160px;
     position: fixed;
-    color: #ffffff;
-    background-color: #282A35;
-    font-family: 'Source Sans Pro Topnav', sans-serif;
-    text-decoration: none;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
 }
 
-a {
-    color: inherit;
-    line-height: 3;
-    margin: 0
-    padding-top: 5px;
-    padding-right: 15px;
-    padding-bottom: 5px;
-    padding-left: 15px; 
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #b8b8b8;
+    display: block;
 }
-a:hover {
-    color: #ff0069;
-    cursor:pointer;
+
+.sidenav a:hover {
+    color: #f1f1f1;
 }
+
+.main {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+</style>

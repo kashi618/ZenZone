@@ -128,7 +128,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 316.5026054382324
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "a004b30a86264a3d",
@@ -253,7 +254,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 313.5
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -271,6 +273,10 @@
   },
   "active": "9730229b0b321abe",
   "lastOpenFiles": [
+    "website/OpenSauceOne.ttf",
+    "website/create.html",
+    "website/investigation.html",
+    "website/planDesign.html",
     "writeup/Project WriteUp Logs.md",
     "writeup/Project WriteUp.md",
     "writeup/Project WriteUp Checklist.md",
@@ -293,9 +299,6 @@
     "website",
     "New folder",
     "Project WriteUp Logs.md",
-    "ZenZone/visuals.py",
-    "ZenZone/speech/__init__.py",
-    "ZenZone/speech",
     "ZenZone/Untitled.canvas",
     "ZenZone/README.md",
     "ZenZone/Project WriteUp.md",
