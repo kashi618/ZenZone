@@ -32,3 +32,4 @@ def symbols(x): # Symbols for Good, Neutral, Bad
     
     if x == "5":
         display.show("5")
+        
