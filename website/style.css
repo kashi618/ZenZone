@@ -53,8 +53,13 @@ body {
     margin-bottom: 10%;
 }
 
+.references a {
+    color: #7DCFFF;
+}
+
 h1 {
     color: #FF757F;
+    text-align: center;
 }
 h2 {
     color: #E0AF68;
@@ -64,6 +69,10 @@ h3 {
 }
 h4 {
     color: #7DCFFF;
+}
+
+b {
+    color: #BB9AF7;
 }
 
 
