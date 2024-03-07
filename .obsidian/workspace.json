@@ -59,8 +59,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -108,7 +107,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "5f252b2efa3321c0",
@@ -144,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "writeup/Project WriteUp Tasks.md"
+                "file": "writeup/Project WriteUp.md"
               }
             }
           },
@@ -203,7 +203,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "writeup/Project WriteUp Tasks.md"
+                "file": "writeup/Project WriteUp.md"
               }
             }
           },
@@ -225,7 +225,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "writeup/Project WriteUp Tasks.md",
+                "file": "writeup/Project WriteUp.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -242,7 +242,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "writeup/Project WriteUp Tasks.md",
+                "file": "writeup/Project WriteUp.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -269,22 +269,22 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "9730229b0b321abe",
+  "active": "a619b4a3f0ef4750",
   "lastOpenFiles": [
+    "website/wordCount.html",
+    "website/evaluation.html",
+    "website/create.html",
+    "website/planDesign.html",
+    "website/OpenSauceOne-Italic.ttf",
+    "website/OpenSauceOne-Bold.ttf",
+    "website/OpenSauceOne-Regular.ttf",
+    "website/meetingTheBreif.html",
+    "website/investigation.html",
+    "writeup/Project WriteUp Tasks.md",
     "website/references.html",
     "website/TEMPLATE.html",
-    "website/BACKUP/planDesign.html",
-    "website/BACKUP/meetingTheBreif.html",
-    "website/BACKUP/investigation.html",
-    "website/BACKUP/evaluation.html",
-    "website/BACKUP/create.html",
-    "website/BACKUP",
-    "website/meetingTheBreif.html",
-    "evaluation.html",
-    "planDesign.html",
     "writeup/Project WriteUp Checklist.md",
     "writeup/Project WriteUp.md",
-    "writeup/Project WriteUp Tasks.md",
     "writeup/Project WriteUp Logs.md",
     "writeup/README.md",
     "writeup/Untitled.canvas",
