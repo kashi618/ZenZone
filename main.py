@@ -10,10 +10,13 @@ from visuals import *
 # Startup Picture 
 startup()
 
+amountOfEmotions = 0
+
 while True:
     userEmotion = feelingGNB()
-    emotionStrength = emotion1_10()
-    exportData(userEmotion,emotionStrength)
+    emotionIntensity = emotion1_10()
+    amountOfEmotions += 1
+    exportData(userEmotion,emotionIntensity,amountOfEmotions)
     
     sleep(3600000) # Wait for 1 hour
     

@@ -21,32 +21,6 @@
             }
           },
           {
-            "id": "9730229b0b321abe",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "writeup/Project WriteUp Tasks.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "87a496b44d8f0ce7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "writeup/Project WriteUp Checklist.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "23d46cdd7d3ea7f4",
             "type": "leaf",
             "state": {
@@ -271,6 +245,9 @@
   },
   "active": "a619b4a3f0ef4750",
   "lastOpenFiles": [
+    "writeup/Project WriteUp Logs.md",
+    "writeup/Project WriteUp.md",
+    "writeup/Project WriteUp Checklist.md",
     "website/wordCount.html",
     "website/evaluation.html",
     "website/create.html",
@@ -282,10 +259,6 @@
     "website/investigation.html",
     "writeup/Project WriteUp Tasks.md",
     "website/references.html",
-    "website/TEMPLATE.html",
-    "writeup/Project WriteUp Checklist.md",
-    "writeup/Project WriteUp.md",
-    "writeup/Project WriteUp Logs.md",
     "writeup/README.md",
     "writeup/Untitled.canvas",
     "Untitled.canvas",

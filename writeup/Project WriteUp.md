@@ -35,9 +35,13 @@ From the csv file generated in the microbit, a graph can be created for each of 
 
 
 **Each "what if" questions must use a minimum of three validated parameters (using at least two different data types) and, based on the information provided, offer the user insights in relation to some aspect of their wellbeing.**
-does the mood you feel now affect the modo you feel later
+- How does the mood vary throughout the day?
+	Are you more happy in the mornings, sad at night, etc
+- What if I feel very happy in the morning, how likely will I continue to be happy throughout the day
+- Does an intense mood such as being "very happy" affect the next mood felt in an hour?
+	What if i feel 5happy, what is the most likely next emotion?
 
-does intensity of an emotion affect mood felt later
+
 
 **Users can view data in a graphical format which displays information such as their progress using the system or the results of a "what if" scenario**
 

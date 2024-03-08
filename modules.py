@@ -1,6 +1,7 @@
 from microbit import display
 from microbit import *
 from visuals import*
+import log
 
 def startup():
     cup()
@@ -75,7 +76,9 @@ def emotion1_10():
     userChoice = scrollAndReturnUsingAB(num1_10,question)
     return userChoice
 
-def exportData(userEmotion,emotionStrength):
-    log.set_labels("emotion", "emotionStrength")
-    log.add({"emotion":userEmotion})
-    log.add({"emotionStrength":emotionStrength})
+def exportData(userEmotion,emotionIntensity,amountOfEmotions):
+    emotionNum = amountOfEmotions - 1
+    log.set_labels("Emotion","Intensity",timestamp=log.HOURS)
+    log.add({Emotion=userEmotion[emotionNum]
+            Intensity=emotionIntensity[emotionNum]})
+
