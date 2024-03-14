@@ -29,6 +29,10 @@ body {
     display: block;
 }
 
+.sidenav a:visited {
+    color: #b8b8b8;
+}
+
 .sidenav a:hover {
     background-color: #292e42;
 }
@@ -52,6 +56,10 @@ body {
 }
 
 .references a {
+    color: #7DCFFF;
+}
+
+a:visited {
     color: #7DCFFF;
 }
 
