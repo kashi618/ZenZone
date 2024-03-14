@@ -2,24 +2,20 @@ from microbit import *
 from modules import *
 from visuals import *
 
-# DOCUMENTATION
-# https://microbit-micropython.readthedocs.io/en/v2-docs/
-# MICROBIT WEBSITE
-# https://makecode.microbit.org/
+# Initializing variables, and csv
+amountOfEmotions = 0
+log.set_labels("Emotion", "Intensity")
 
 # Startup Picture 
 startup()
 
-amountOfEmotions = 0
-
+# Grabs the emotion felt, and how strong they feel it from user.
+# This data would be gathered every hour, and then stored on a csv file on the microbit
 while True:
+    amountOfEmotions += 1
     
-    userEmotion = feelingGNB()
-    emotionIntensity = emotion1_10()
-    #amountOfEmotions += 1
-    #exportData(userEmotion,emotionIntensity,amountOfEmotions)
-    export()
+    # feelingGNB() is used for gathering the emotion felt
+    # emotion1_5 is used for gathering how strong they feel this way
+    exportData(feelingGNB(),emotion1_5())
     
-    
-    sleep(3600000) # Wait for 1 hour
-    
+    sleep(3600000) # 1 hour timer
