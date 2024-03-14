@@ -27,7 +27,7 @@
               "type": "markdown",
               "state": {
                 "file": "writeup/Project WriteUp Tasks.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": true,
                 "source": false
               }
@@ -101,7 +101,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "a004b30a86264a3d",
@@ -246,6 +247,7 @@
   "active": "23d46cdd7d3ea7f4",
   "lastOpenFiles": [
     "writeup/Project WriteUp.md",
+    "Pokemon - Emerald Version (USA, Europe).sav",
     "writeup/Project WriteUp Tasks.md",
     "writeup/Project WriteUp Logs.md",
     "writeup/Project WriteUp Checklist.md",
@@ -258,7 +260,6 @@
     "website/OpenSauceOne-Regular.ttf",
     "website/meetingTheBreif.html",
     "website/investigation.html",
-    "website/references.html",
     "writeup/README.md",
     "writeup/Untitled.canvas",
     "Untitled.canvas",
