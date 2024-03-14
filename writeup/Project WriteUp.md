@@ -61,9 +61,18 @@ After seeing the solutions created by other people, I found that they don't allo
 Therefore, I wanted to build on this concept of allowing users to log their emotions, but also how intense they feel it.
 
 ### Feedback from Potential End-Users
-I wanted 
+How often do you change emotions? (eg. from happy to sad)
+subject1 - often, every hour
 
+subject2 - very rarely, 2 hours
 
+subject3 - frequenty, hourly
+
+subject4 - autistic, every 10 minutes or 5 hours
+
+subject5 - pretty often, 1hour 20mins
+
+subject6 - 
 
 ## Plan and Design
 
@@ -79,7 +88,11 @@ I wanted
 - Excel
 - Microbit
 - Replit
-
+- Phone Camera
+- HTML
+- Obsidian
+- Handbrake
+- 7 Zip
 ## Create
 ### Weekly Logs
 

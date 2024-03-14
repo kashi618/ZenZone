@@ -13,10 +13,13 @@ startup()
 amountOfEmotions = 0
 
 while True:
+    
     userEmotion = feelingGNB()
     emotionIntensity = emotion1_10()
-    amountOfEmotions += 1
-    exportData(userEmotion,emotionIntensity,amountOfEmotions)
+    #amountOfEmotions += 1
+    #exportData(userEmotion,emotionIntensity,amountOfEmotions)
+    export()
+    
     
     sleep(3600000) # Wait for 1 hour
     

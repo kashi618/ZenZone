@@ -1,7 +1,7 @@
 from microbit import display
 from microbit import *
-from visuals import*
-import log
+from visuals import *
+import music
 
 def startup():
     cup()
@@ -11,6 +11,7 @@ def startup():
     music.pitch(415, 500)
     music.pitch(622, 250)
     music.pitch(466, 250)
+    sleep(1000)
 
 def scrollAndReturnUsingAB(choices,question): # Input list of choices, scroll using buttons A and B, return value of choice
     maxNumChoices = len(choices) - 1 # Number of options in list starting at 0
@@ -24,7 +25,7 @@ def scrollAndReturnUsingAB(choices,question): # Input list of choices, scroll us
             sleep(1000)
             return(choices[listChoice])
 
-        if accelerometer.was_gesture('4g'): # Shake to show question again 
+        if accelerometer.was_gesture('shake'): # Shake to show question again 
             music.pitch(500,duration=1) # Feedback beep
             display.scroll(question,80)
 
@@ -63,6 +64,7 @@ def feelingGNB(): # Returns if user is feeling "Good", "Bad", "Neutral"
     music.pitch(440,duration=1) # 
     display.scroll(question,80) # Scroll question
     
+    leftRightArrow()
     userChoice = scrollAndReturnUsingAB(choicesGNB,question)
     return userChoice
 
@@ -73,12 +75,30 @@ def emotion1_10():
     music.pitch(440,duration=1) # Feedback beep
     display.scroll(question,80) # Scroll question
     
+    leftRightArrow()
     userChoice = scrollAndReturnUsingAB(num1_10,question)
     return userChoice
 
-def exportData(userEmotion,emotionIntensity,amountOfEmotions):
-    emotionNum = amountOfEmotions - 1
-    log.set_labels("Emotion","Intensity",timestamp=log.HOURS)
-    log.add({Emotion=userEmotion[emotionNum]
-            Intensity=emotionIntensity[emotionNum]})
+#def exportData(userEmotion,emotionIntensity,amountOfEmotions):
+    #emotionNum = amountOfEmotions - 1
+    #log.set_labels("Emotion","Intensity",timestamp=log.HOURS)
+    #log.add({Emotion=userEmotion[emotionNum]
+    #        Intensity=emotionIntensity[emotionNum]})
 
+def export():
+    while True:
+        if pin_logo.is_touched():
+            display.scroll("Log Data",100)
+            for i in range(3):
+                upArrow()
+            display.show(Image( "09090:"
+                                "99999:"
+                                "99999:"
+                                "09990:"
+                                "00900"))
+            display.show(Image( "00000:"
+                                "99099:"
+                                "00000:"
+                                "90009:"
+                                "09990"))
+            

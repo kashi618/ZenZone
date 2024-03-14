@@ -28,7 +28,7 @@
 - Explain a problem that was encountered during the implementation, and how you overcame the problem
 - Select and explain some vital/important parts of the code 
 	Supported using screenshots of the code
-## Evaluation (12)
+## Evaluation (12) 
 - Compare finished project and how it followed or didn't follow the breif requirements
 - Consider how it met the needs of the end user(s) that i referred to in the invesitagtion stage
 - Suggest how the code or project can be iterated on, or improved on.

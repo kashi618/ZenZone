@@ -8,6 +8,77 @@ def cup(): # Water Cup
                         "96669:" 
                         "99999"))
 
+def leftRightArrow():
+    display.show(Image( "00000:"
+                        "09090:"
+                        "99099:"
+                        "09090:" 
+                        "00000"))
+    
+
+def upArrow(): # Water Cup
+    display.show(Image( "00900:"
+                        "09990:"
+                        "90909:"
+                        "00900:" 
+                        "00900"))
+    sleep(100)
+    display.show(Image( "09990:"
+                        "90909:"
+                        "00900:"
+                        "00900:"
+                        "00000"))
+    sleep(100)
+    display.show(Image( "90909:"
+                        "00900:"
+                        "00900:"
+                        "00000:"
+                        "00000"))
+    sleep(100)
+    display.show(Image( "00900:"
+                        "00900:"
+                        "00000:"
+                        "00000:"
+                        "00000"))
+    sleep(100)
+    display.show(Image( "00900:"
+                        "00000:"
+                        "00000:"
+                        "00000:"
+                        "00000"))
+    sleep(100)
+    display.show(Image( "00000:"
+                        "00000:"
+                        "00000:"
+                        "00000:"
+                        "00000"))
+    sleep(100)
+    display.show(Image( "00000:"
+                        "00000:"
+                        "00000:"
+                        "00000:"
+                        "00900"))
+    sleep(100)
+    display.show(Image( "00000:"
+                        "00000:"
+                        "00000:"
+                        "00900:"
+                        "09990"))
+    sleep(100)
+    display.show(Image( "00000:"
+                        "00000:"
+                        "00900:"
+                        "09990:"
+                        "90909"))
+    sleep(100)
+    display.show(Image( "00000:"
+                        "00900:"
+                        "09990:"
+                        "90909:"
+                        "00900"))
+    sleep(100)
+
+
 def symbols(x): # Symbols for Good, Neutral, Bad
     if x == "Good": # Good
         display.show("G")
