@@ -15,7 +15,6 @@ def leftRightArrow(): # Left and right Arrow for buttons A and B
                         "99099:"
                         "09090:" 
                         "00000"))
-    
 
 def upArrow(): # This is an animation used when data is sent from microbit to PC
     display.show(Image( "00900:"

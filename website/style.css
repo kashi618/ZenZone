@@ -17,7 +17,6 @@ body {
     background-color: #16161E;
     overflow-x: hidden;
     padding-top: 20px;
-
     outline-width: 4px;
     outline-color: #292E42;
 }
@@ -54,6 +53,10 @@ body {
 
 .references a {
     color: #7DCFFF;
+}
+
+li {
+    margin-left: 30px;
 }
 
 h1 {

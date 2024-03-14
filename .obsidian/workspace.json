@@ -33,8 +33,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -119,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "writeup/Project WriteUp Tasks.md"
+                "file": "writeup/Project WriteUp.md"
               }
             }
           },
@@ -178,7 +177,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "writeup/Project WriteUp Tasks.md"
+                "file": "writeup/Project WriteUp.md"
               }
             }
           },
@@ -200,7 +199,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "writeup/Project WriteUp Tasks.md",
+                "file": "writeup/Project WriteUp.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -217,7 +216,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "writeup/Project WriteUp Tasks.md",
+                "file": "writeup/Project WriteUp.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -244,13 +243,18 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "23d46cdd7d3ea7f4",
+  "active": "a619b4a3f0ef4750",
   "lastOpenFiles": [
+    "website/VisualStudioCode.png",
+    "writeup/Project WriteUp Tasks.md",
+    "website/pythonVisuals.png",
+    "website/pythonMain.png",
+    "website/pythonModules.png",
+    "website/main python image.png",
     "log/__init__.py",
     "log",
     "OTHER",
     "writeup/Project WriteUp.md",
-    "writeup/Project WriteUp Tasks.md",
     "Pokemon - Emerald Version (USA, Europe).sav",
     "writeup/Project WriteUp Logs.md",
     "writeup/Project WriteUp Checklist.md",
@@ -260,7 +264,6 @@
     "website/planDesign.html",
     "website/OpenSauceOne-Italic.ttf",
     "website/OpenSauceOne-Bold.ttf",
-    "website/OpenSauceOne-Regular.ttf",
     "writeup/README.md",
     "writeup/Untitled.canvas",
     "Untitled.canvas",
@@ -292,10 +295,6 @@
     "Media, Pictures, Gifs/Salnotes Dioko.png",
     "Media, Pictures, Gifs/MHW Shock Trap.bmp",
     "Media, Pictures, Gifs/MHW Long Sword.bmp",
-    "Excalidraw/Scripts/Downloaded/Set Grid.svg",
-    "Excalidraw/Scripts/Downloaded/Organic Line.svg",
-    "Media, Pictures, Gifs/Socrates.png",
-    "Pasted image 20240130210156.png",
     "Spaces/Home/a/Untitled.canvas",
     "Templates/Unsorted/LifeOS/HOME.canvas",
     "Untitled 2.canvas",
