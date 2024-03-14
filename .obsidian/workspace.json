@@ -8,26 +8,13 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a619b4a3f0ef4750",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "writeup/Project WriteUp Logs.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "23d46cdd7d3ea7f4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "writeup/Project WriteUp Tasks.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": true,
                 "source": false
               }
@@ -117,7 +104,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "writeup/Project WriteUp Logs.md"
+                "file": "writeup/Project WriteUp Tasks.md"
               }
             }
           },
@@ -176,7 +163,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "writeup/Project WriteUp Logs.md"
+                "file": "writeup/Project WriteUp Tasks.md"
               }
             }
           },
@@ -198,7 +185,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "writeup/Project WriteUp Logs.md",
+                "file": "writeup/Project WriteUp Tasks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -215,7 +202,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "writeup/Project WriteUp Logs.md",
+                "file": "writeup/Project WriteUp Tasks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -242,8 +229,9 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "a619b4a3f0ef4750",
+  "active": "23d46cdd7d3ea7f4",
   "lastOpenFiles": [
+    "writeup/Project WriteUp Logs.md",
     "website/code.html",
     "website/logs.html",
     "writeup/Project WriteUp.md",
@@ -257,13 +245,11 @@
     "log",
     "OTHER",
     "Pokemon - Emerald Version (USA, Europe).sav",
-    "writeup/Project WriteUp Logs.md",
     "writeup/Project WriteUp Checklist.md",
     "website/wordCount.html",
     "website/evaluation.html",
     "website/create.html",
     "website/planDesign.html",
-    "website/OpenSauceOne-Italic.ttf",
     "writeup/README.md",
     "writeup/Untitled.canvas",
     "Untitled.canvas",
