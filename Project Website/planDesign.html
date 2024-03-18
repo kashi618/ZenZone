@@ -35,46 +35,47 @@
         <h2>Overview</h2>
         <p>
             The microbit is used to gather how the user is feeling, and how intensely they feel that emotion.
-            It will do this by asking the user two questions periodically every hour to get a dataset.
-            <br>
+            It will do this by asking the user two questions periodically every hour, storing the data in a CSV file.
+            <br><br>
             First, it will ask how they are currenlty feeling.
             The user uses buttons A and B to select their emotion, pressing the microbit logo to choose it. The user chooses between 3 emotions; "happy", "neutral", "sad".
             <br><br>
-            After, it will ask how intensity they feel that way.
-            Using buttons A and B again, they choose from a range between 1-5, pressing the microbit logo to choose it.
+            After, it will ask how intense that emotions is.
+            By using buttons A and B again, they choose from a range between 1-5, pressing the microbit logo to choose it.
             <br><br>
-            From these data gathered, it will then log and store them in a CSV file. 
-            This CSV file will then be sent to the computer, and can be graphed to find the "general emotional state".
+            From the data gathered, it will then log and store them in a CSV file. 
+            This CSV file will then be sent to the computer, and can be graphed to find their general emotional state/general mood level.
             A python file will be used to graph this data.
-            The y-axis will be the emotion felt, whilst the x-axis will be the time for that emotion.
+            The y-axis will be the mood level, and the x-axis will be time that emotions was inputted.
+            <br>
+            *NOTE: The microbit will notify the user periodically every hour.
             <br><br>
             If the user is <b>happy</b>, the y-axis value will be <b>positive</b>. The higher the number, the more happy they feel<br>
             If the user is <b>sad,</b> the y-axis value will be <b>negative</b>. The lower the number, the more sad they feel.<br>
             If the user is <b>neutral</b>, the y-axis will be at <b>0</b>.
             <br><br>
-            The "general emotional state" will be the average of the emotions felt throughout the day.
-
-
+            The general mood level can then be calculated by finding the of the emotions felt throughout the day.
         </p>
-        
 
         <h2>Technologies Used</h2>
             <h3>Software</h3>
                 <li>VScode - For coding the python, microbit, and website</li>
                 <li>Handbrake - For compressing project video</li>
                 <li>Excel - For editing CSV files</li>
-                <li>Obsidian - For mock writeup</li>
+                <li>Obsidian - For brainstorn, and taking notes</li>
                 <li>Luciddraw- For making Flowcharts</li>
-                <li>Firefox - For researching</li>
+                <li>Firefox - For tesing out the website and for researching</li>
+                <li>Clipchamp - For adding captions and editing the video</li>
             <h3>Hardware</h3>
-                <li>Microbit</li>
-                <li>Microbit LED's</li>
-                <li>Microbit Buttons</li>
-                <li>Microbit Speaker</li>
-
+                <li>Microbit - The embedded system</li>
+                <li>Microbit LED's - Module on microbit</li>
+                <li>Microbit Buttons - Module on microbit</li>
+                <li>Microbit Speaker - Module on microbit</li>
+                <li>Micro USB cable - For flashing code onto microbit, and exporting CSV dataset</li>
+        
         <h2>Pseudocode</h2>
         <p>
-            This was the first pseudocode I created, containing only the bare neccesities needed.
+            This is the first pseudocode I created. This contains only the bare neccesities needed for the microbit to function.
         </p>
         <img src="pseudocode.png" width="900">
 
