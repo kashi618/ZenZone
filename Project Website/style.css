@@ -1,0 +1,119 @@
+html {
+    font-family: 'OpenSauceOne';
+}
+
+body {
+    background-color: #1A1B26;
+    color: #C0CAF5;
+}
+
+.sidenav {
+    height: 100%;
+    width: 174px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #16161E;
+    overflow-x: hidden;
+    padding-top: 20px;
+    outline-width: 4px;
+    outline-color: #292E42;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 22px;
+    color: #b8b8b8;
+    display: block;
+}
+
+.sidenav a:visited {
+    color: #b8b8b8;
+}
+
+.sidenav a:hover {
+    background-color: #292e42;
+}
+
+.active {
+    background-color: #292E42;
+}
+
+.main {
+    margin-left: 180px;
+    padding: 0px 10px;
+    font-size: large;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+    color: #ff0069;
+    margin-bottom: 10%;
+}
+
+.references a {
+    color: #7DCFFF;
+}
+
+a:visited {
+    color: #7DCFFF;
+}
+
+li {
+    margin-left: 30px;
+}
+
+h1 {
+    color: #FF757F;
+    text-align: center;
+}
+h2 {
+    color: #E0AF68;
+}
+h3 {
+    color: #9ECE6A;
+}
+h4 {
+    color: #7DCFFF;
+}
+
+b {
+    color: #7DCFFF;
+}
+
+i {
+    color: #7DCFFF; 
+}
+
+.purple {
+    color: #BB9AF7;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+@font-face {
+    font-family: OpenSauceOne;
+    src: url(OpenSauceOne-Regular.ttf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: OpenSauceOne;
+    src: url(OpenSauceOne-Bold.ttf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: OpenSauceOne;
+    src: url(OpenSauceOne-Bold.ttf);
+    font-weight: bold;
+}
+
+

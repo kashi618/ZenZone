@@ -1,0 +1,32 @@
+[start microbit]
+
+show logo of cup
+play startup sound
+
+print(hi, how are you?)
+
+
+print(Good  /  Neutral  /  Bad)
+    if touch logo:
+        show text again ("hi, how are you?")
+    if button A:
+#       add sfx
+        show previous option
+        show first letter of option
+    if button B:
+#       add sfx
+        show next options
+        show first letter of option
+    if button AB:
+#       add sfx
+        select option, and call function(good,neutral,bad)
+
+#print(how do you feel?)
+#   if button A:
+#       scroll through options
+#       show letter of option
+#   if button B:
+#       scroll through options
+#       show letter of option
+#   if button AB:
+#       store option in dataset

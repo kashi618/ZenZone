@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <div class="sidenav">
+        <div class="title">ZenZone</div>
+
+        <a href="home.html">Home</a>
+        <a href="meetingTheBreif.html">Meeting Breif</a>
+        <a href="investigation.html">Investigation</a>
+        <a href="planDesign.html">Plan + Design</a>
+        <a class="active" href="create.html">Create</a>
+        <a href="evaluation.html">Evaluation</a>
+        <a href="references.html">References</a>
+        <a href="wordCount.html">Word Count</a>
+        <a href="logs.html">Weekly Logs</a>
+        <a href="code.html">Images of Code</a>
+    </div>
+
+    <div class="main">
+        <h1>
+            Create
+        </h1>
+        
+        <h2>Weekly Logs</h2>
+            <a href="logs.html">Click here to see weekly logs</a>
+
+        <h2>Unit Testing/Bug Testing</h2>
+            <p>
+                When I was uploading and designing the code to the microbit, I would often encounter many problems.
+                Thus, I decided to implement unit testing as many bugs.
+                Unit testing is when sections of the code are tested, to help identify bugs and issues early on.
+                Although unit testing is very time consuming, it helped this project massively.
+                Many of the bugs were encountered early on, and reduced the amount of problems that would arise.
+                It helped optimise my code, and to fix the occasional missing brackets or mistyped variable name
+            </p>
+
+        <h2>Problems Encountered</h2>
+            <p>
+                The first problem I encountered when coding the microbit was the scrolling Button A and Button B functionality. 
+                I wanted to create a way for the user to cycle between the options there were given, such as the emotions "good","neutral","bad".
+                Button A would cycle through the options clockwise. Whilst button B would cycle through the options counter clockwise as shown in the picture below.
+            </p>
+            <img src="buttonAbuttonB.png" width="600">
+            <p>
+                This seemingly simple function caused alot of headache, and many days were wasted trying to find a solution.
+                One technique I used to help counteract this problem was with abstraction.
+                I broke down the function to its core components, and realised I could make a variable to store the "currentChoice", and to give each emotion a number.
+                Such as having "bad" = 0, "neutral" = 1, and "happy" = 2.
+                By assigning a numerical value to these emotions, I could increase the "currentChoice" by 1 using button A, to change the value from bad to neutral, or from neutral to happy.
+                The opposite can be done of button B, which would decrease the "currnetChoice"
+                For example, if the "currentChoice" is 2 which represents "happy", I could change it to "neutral" just by decreasing it by -1, changing the "currentChoice" to a 1, which represents "neutral".
+            </p>
+            <img src="problemEncountered.png" width="600">
+            <p>
+                This is the final iteration of the code I came up with. I believe that it is extremely overcomplicated and over-engineered.
+                I hope to revisit this problem in the future, to see if I am able to make it more elegant, and optimise it more.
+            </p>
+
+        <h2>Vital Piece of Code</h2>
+        <P>
+            My most vital piece of code would be when the microbit is logging and exporting the data into a CSV file.
+        </P>
+        <img src="vitalCode.png" width="600">
+        <p>
+            This piece of code is very simple, however it is the most important. It is a function which takes in the "emotion" felt, and the "intensity".
+            Once the user finishes answering the questions given by the microbit, they simply plug in the usb and tap the logo.
+            This will store all the data gathered, and logs them to a CSV file. 
+            After, the python script can be run, which reads this CSV file directly from the microbit, graphs the data, and shows the 'what if' questions.
+            Lines 10 and onwards calls the "upArrow()" function, which is an animation I created which depicts an arrow sending data to the computer.
+        </p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
