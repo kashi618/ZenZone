@@ -15,6 +15,5 @@ The specific tasks where to:
 
 I decided to make a tracker for mental health. It tracks the emotions felt by the user throughout the day. At the end of the day, the data gathered can be used for analysis to see how their mood would vary.
 
-Everything I have done in this project has been documented and explained in my website, which you can access by running the "index.html" file in the "report" folder.
-
-All of the code written for the Microbit and the dataset gathered can be found in the "artefect" folder. In this folder, you will also find the "Python Script.py" file, which is used to graph and analyse their mood.
+- Everything I have done in this project has been documented and explained in my website, which you can access by **[Clicking Here!](https://kashi618.github.io/ZenZone/)**
+- All of the code written for the Microbit and the dataset gathered can be found in the "artefect" folder. In this folder, you will also find the "Python Script.py" file, which is used to graph and analyse their mood.
