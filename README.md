@@ -1,4 +1,12 @@
-Hi, welcome to my Computer Science Coursework project for the Leaving Certificate 2024.
+**Hi, welcome to my Computer Science Coursework project for the Leaving Certificate 2024.**
+
+*To view the website for ZenZone, open the REPORT folder and open index.html*
+
+
+
+---
+
+
 
 For this years brief, I was tasked to "identify a situation where computer science can be applied to enhance some aspect of health and wellbeing in people’s lives".
 The specific tasks where to:
