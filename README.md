@@ -1,6 +1,6 @@
 **Hi, welcome to my Computer Science Coursework project for the Leaving Certificate 2024.**
 
-*To view the website for ZenZone, open the REPORT folder and open index.html*
+*[To view the website for ZenZone](https://kashi618.github.io/ZenZone/)
 
 
 
