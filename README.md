@@ -17,3 +17,11 @@ I decided to make a tracker for mental health. It tracks the emotions felt by th
 
 - Everything I have done in this project has been documented and explained in my website, which you can access by **[Clicking Here!](https://kashi618.github.io/ZenZone/)**
 - All of the code written for the Microbit and the dataset gathered can be found in the "artefect" folder. In this folder, you will also find the "Python Script.py" file, which is used to graph and analyse their mood.
+
+
+
+---
+
+
+
+PS: *Yes, I spelt the word "brief" wrong on the website. And yes, that was the one submitted to the state exams.* :D
